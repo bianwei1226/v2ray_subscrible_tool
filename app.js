@@ -12,14 +12,14 @@ let readSync = util.readSync
 let writeSync = util.writeSync
 
 let BUILD_DIR = 'dist' // 构建目录
-let ENTRY_FILE = './node.txt' // SS(R)入口
+let ENTRY_FILE = './node.txt' // SS(R) or V2ray入口
 let str = readSync(ENTRY_FILE)
 
 let checker = item => {
-    return item => item.includes('ssr://') || item.includes('ss"//')
+    return item => item.includes('ssr://') || item.includes('ss"//') || item.includes('vmess://')
 }
 
-// Map all the item include `ssr://` and serialize those items
+// Map all the item include `ssr://` or `V2ray` and serialize those items
 let result = str.split('\n\n')
                 .filter(item => checker(item))
                 .join('\r\n')
