@@ -3,7 +3,7 @@
 
 Good luck, guys!
 
-# SSR节点列表生成器
+# V2ray节点列表生成器
 > 适配ios版shadowrocket，PC或Mac版小飞机,
 
 ## 说明
@@ -15,7 +15,7 @@ Good luck, guys!
 
 
 ## 更新说明
-- 支持SS或者SSR
+- 支持SS、SSR或者V2ray
 
 ## 问题
 - 据反映安卓或者Windows客户端可能无法订阅成功，请为添加的每一个节点设置相同的**分组**
