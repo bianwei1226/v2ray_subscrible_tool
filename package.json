@@ -1,13 +1,13 @@
 {
   "name": "build-tool",
   "version": "1.0.0",
-  "description": "Provide SSR subscrible link",
+  "description": "Provide SSR or V2ray subscrible link",
   "main": "app.js",
   "scripts": {
     "build": "node app.js"
   },
   "keywords": [
-    "ssr", "subscrible link"
+    "V2ray", "subscrible link"
   ],
   "author": "Andy Chung",
   "license": "ISC"
